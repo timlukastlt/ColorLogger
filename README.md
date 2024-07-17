@@ -1,20 +1,20 @@
-# ColorLogger
+# SimpleColorLogger
 
-ColorLogger is a simple Python package for printing colored log messages to the terminal.
+SimpleColorLogger is a simple Python package for printing colored log messages to the terminal.
 
 ## Installation
 
 ```bash
-pip install colorlogger
+pip install SimpleColorLogger
 ```
 
 ## Usage
 
 ```python
-from colorlogger.logger import ColorLogger
+from simplecolorlogger.logger import ColorLogger, Color
 
 ColorLogger.log("This is a normal log message.")
-ColorLogger.log("This is a log message with a custom color.", ColorLogger.YELLOW)
+ColorLogger.log("This is a log message with a custom color.", Color.YELLOW)
 ColorLogger.info("This is an info message.")
 ColorLogger.success("This is a success message.")
 ColorLogger.warning("This is a warning message.")

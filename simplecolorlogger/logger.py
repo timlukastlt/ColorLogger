@@ -9,7 +9,6 @@ class Color(Enum):
     FAIL = '\033[91m'
     ENDC = '\033[0m'
     BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
     BLACK = '\033[30m'
     RED = '\033[31m'
     GREEN = '\033[32m'
@@ -59,16 +58,16 @@ class ColorLogger:
 
     @staticmethod
     def info(message):
-        ColorLogger.log(message, Color.OKBLUE)
+        ColorLogger.log(f"[INFO] {message}", Color.OKBLUE)
 
     @staticmethod
     def success(message):
-        ColorLogger.log(message, Color.OKGREEN)
+        ColorLogger.log(f"[SUCCESS] {message}", Color.OKGREEN)
 
     @staticmethod
     def warning(message):
-        ColorLogger.log(message, Color.WARNING)
+        ColorLogger.log(f"[WARNING] {message}", Color.WARNING)
 
     @staticmethod
     def error(message):
-        ColorLogger.log(message, Color.FAIL)
+        ColorLogger.log(f"[ERROR] {message}", Color.FAIL)

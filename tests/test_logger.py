@@ -1,5 +1,5 @@
 import unittest
-from colorlogger.logger import ColorLogger
+from simplecolorlogger.logger import ColorLogger
 
 class TestColorLogger(unittest.TestCase):
     def test_log(self):
