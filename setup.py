@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Tim Lukas Tritschler',
     author_email='info@music-request.com',
-    url='',
+    url='https://github.com/timlukastlt/ColorLogger',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
