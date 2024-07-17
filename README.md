@@ -24,6 +24,7 @@ ColorLogger.error("This is an error message.")
 ## Feature Requests
 I initially created this repository for personal use, but decided to share it publicly. 
 If you have any suggestions, such as additional colors, please feel free to email me at info@music-request.com or submit a request directly in this repository on GitHub.
+https://github.com/timlukastlt/SimpleColorLogger
 
 
 ## License
